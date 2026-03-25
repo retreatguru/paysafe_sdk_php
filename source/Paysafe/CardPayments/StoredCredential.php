@@ -17,7 +17,8 @@ class StoredCredential extends \Paysafe\JSONObject
         'type' => array(
             'ADHOC',
             'TOPUP',
-            'RECURRING'
+            'RECURRING',
+            'INSTALLMENT'
         ),
         'occurrence' => array(
             'INITIAL',
